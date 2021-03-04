@@ -23,6 +23,23 @@ header > a{
 
 }
 
+.container >.col1 > ol{
+    margin-bottom: 10px;
+    margin-left: -65px;
+    
+}
+
+.container > .col1 > ol > li{
+    line-height: 4;
+
+}
+
+.container > .col1 > h3{
+    margin-left: -40px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
 footer{
     background-color: #EDDDD0;
     width: 100vw;
@@ -31,7 +48,7 @@ footer{
 
 .container > .col1{
     background-color: #6E8783;
-    padding: 100px;
+    padding: 80px;
     width: 100vw;
 
 }
