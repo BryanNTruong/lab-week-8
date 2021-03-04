@@ -59,6 +59,37 @@ footer{
 
 }
 
+.grid-container{
+    display: grid;
+    background-color: #6E8783;
+    grid-template-rows: 10rem 2fr 10rem;
+    grid-template-columns: 500px 1fr 200px;
+    gap: 5px;
+    grid-template-areas:
+        'h h h'
+        's m m'
+        'f f f';
+    width: 100vw;
+    height: 100vh;
+}
+
+.image{
+    grid-area: s;
+    margin-left: 35px;
+
+}
+
+.paragraph{
+    grid-area: m;
+}
+
+.header{
+    grid-area: h;
+    margin-left: 35px;
+    margin-top: 45px;
+    display: inline-block;
+}
+
 img{
     width: 400px;
 }
